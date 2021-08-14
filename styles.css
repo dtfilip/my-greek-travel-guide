@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-color:rgba(0, 153, 255, .7);
+}
+
+.container{
+    width:75vw;
+    height:100vh;
+    margin:0 auto;
+    background-color:#fff;
+}
+
+.header{
+    height:15vh;
+    text-align:center;
+    margin-bottom:7rem;
+    padding-top:.5rem;
+}
+
+.header-heading{
+    width:35rem;
+    height:20rem;
+    background-color:rgba(255, 153, 51, .8);
+    color:#fff;
+    font-size:5rem;
+    font-family: 'Style Script', cursive;
+    border-radius:50%;
+    padding:3rem;
+    margin:0rem auto;
+}
+
+.header-heading__special-word{
+    color:rgba(0, 153, 255, .7);
+}
+
+.navbar-list{
+    list-style-type:none;
+    width:90%;
+    border-top:.5rem solid rgba(0, 153, 255, .7);
+    border-bottom:.5rem solid  rgba(0, 153, 255, .7);
+    margin: auto 5%;
+    padding:3rem;
+}
+
+.navbar-item{
+    display:inline-block;
+    margin-right:5rem;
+}
+
+.navbar-item:first-child{
+    margin-left:5rem;
+}
+
+.navbar-link{
+    text-decoration:none;
+    font-size:3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color:rgba(0, 153, 255, .7);
+    text-transform:uppercase;
+}
+
+.section-1{
+    width:100%;
+    height:65vh;
+}
+
+.video{
+    width:90%;
+    height:65vh;
+    margin:.5rem 5%;
+    object-fit:cover;
+}
+
+.section-2{
+    width:100%;
+    height:100vh;
+    background-color:#fff;
+    text-align:center;
+}
+
+.section-2-heading{
+    font-size:4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:rgba(0, 153, 255, .7);
+    text-transform:uppercase;
+    padding-top:6rem;
+    margin-bottom:10rem;
+    transition:transform .8s ease-in;
+    text-shadow:.8rem .8rem 1rem #ccc
+}
+
+.section-2-heading:hover{
+    transform:scale(1.1) skew(-15deg);
+    cursor:default;
+}
+
+.section-2-cards{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.section-2-card{
+    background-color:rgba(0, 153, 255, .7);
+    padding:2rem;
+    border-radius:.5rem;
+    box-shadow:.8rem .8rem 1rem #ccc
+}
+
+.section-2-card__title{
+    font-size:3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color:#fff;
+    padding:1.5rem;
+}
+
+.section-2-card__img{
+    width:30rem;
+    height:25rem;
+    object-fit:cover;
+}
+
+.section-2-card__pricing{
+    font-size:2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color:#fff;
+    padding:1.5rem;
+}
+
+.special-number{
+    color:rgba(255, 153, 51, .8);
+    font-size:6rem;
+}
+
+.section-2-banner{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+i{
+    font-size:12rem;
+    color:rgba(0, 153, 255, .7);
+    margin-top:10rem;
+}
+
+.section-2-banner__paragraph{
+    font-size:3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color:rgba(0, 153, 255, .7);
+    align-self: flex-end;
+}
+
+.footer{
+    background-color:#444;
+    color:#fff;
+    width:100%;
+    text-align:center;
+    padding:1.5rem;
+}
+
+.copyright{
+    font-size:3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
